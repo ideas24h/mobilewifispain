@@ -1,0 +1,14 @@
+{{ define "main" }}
+<body class="body-wrapper">
+    {{ block "banner" . }}{{ partial "banner.html" . }}{{ end }}
+    {{ block "navbar" . }}{{ partial "navbar.html" . }}{{ end }}
+    {{ block "about" . }}{{ partial "about.html" . }}{{ end }}
+    {{ block "features" . }}{{ partial "features.html" . }}{{ end }}
+    <!-- {{ block "video" . }}{{ partial "video.html" . }}{{ end }} -->
+    {{ block "pricing" . }}{{ partial "pricing.html" . }}{{ end }}
+    {{ block "cta" . }}{{ partial "cta.html" . }}{{ end }}
+    {{ block "counter" . }}{{ partial "counter.html" . }}{{ end }}
+    {{ block "testimonials" . }}{{ partial "testimonials.html" . }}{{ end }}
+
+</body>
+{{ end }}
