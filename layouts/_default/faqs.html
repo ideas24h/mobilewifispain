@@ -1,0 +1,8 @@
+{{ define "main" }}
+<body class="body-wrapper">
+    {{ block "banner" . }}{{ partial "banner.html" . }}{{ end }}
+    {{ block "navbar" . }}{{ partial "navbar.html" . }}{{ end }}
+    {{ block "faqs" . }}{{ partial "faqs.html" . }}{{ end }}
+      {{ block "subscribe" . }}{{ partial "subscribe.html" . }}{{ end }}
+</body>
+{{ end }}
