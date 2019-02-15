@@ -1,5 +1,4 @@
 {{ define "main" }}
-<body class="body-wrapper">
     {{ block "banner" . }}{{ partial "banner.html" . }}{{ end }}
     {{ block "navbar" . }}{{ partial "navbar.html" . }}{{ end }}
     {{ block "about" . }}{{ partial "about.html" . }}{{ end }}
@@ -11,6 +10,6 @@
       {{ block "testimonials" . }}{{ partial "testimonials.html" . }}{{ end }}
       {{ block "formnet" . }}{{ partial "formnet.html" . }}{{ end }}
       {{ block "subscribe" . }}{{ partial "subscribe.html" . }}{{ end }}
-
-</body>
+      <!-- Start of HubSpot Embed Code -->
+      <!-- End of HubSpot Embed Code -->
 {{ end }}
